@@ -2,8 +2,8 @@
 
 ### Getting Started
 
-ADBC의 NCPI 캠페인을 진행하기 위해 포스트백을 연동합니다
-추가로 귀사에서 사용될 링크 템플릿을 작성하여 ADBC 캠페인의 링크 발급시 사용되는 링크 형태를 미리 정의합니다 
+ADBC의 NCPI 캠페인을 진행하기 위해 포스트백을 연동합니다  
+추가로 귀사에서 사용될 링크 템플릿을 작성하여 ADBC 캠페인의 링크 발급시 사용되는 링크 형태를 미리 정의합니다
 
 
 ### Prerequisites
@@ -66,7 +66,7 @@ https://adbc.io?sub1={click_id}&aff_id={affiliate_id}
 
 # 3.Test
 
-위 1.Postback과 2.Link template를 정의하여 아래 메일로 전달주시면
+위 1.Postback과 2.Link template를 정의하여 아래 메일로 전달주시면  
 검토 및 설정 후 테스트 캠페인을 전달드립니다
 
 ## Authors
