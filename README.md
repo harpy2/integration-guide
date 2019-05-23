@@ -9,5 +9,4 @@
 
 ## Authors
 
-* **CHOI BAWOO** - *Integration technical support* - [ADBC](https://adbc.co.kr)
-bw@adbc.co.kr
+* **CHOI BAWOO** - *Integration technical support* - bw@adbc.co.kr
