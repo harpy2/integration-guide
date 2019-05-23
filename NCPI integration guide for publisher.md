@@ -71,8 +71,7 @@ https://adbc.io?sub1={click_id}&aff_id={affiliate_id}
 
 ## Authors
 
-* **CHOI BAWOO** - *Integration technical support* - [ADBC](https://adbc.co.kr)
-bw@adbc.co.kr
+* **CHOI BAWOO** - *Integration technical support* - bw@adbc.co.kr
 
 
 
