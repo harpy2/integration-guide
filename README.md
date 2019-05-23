@@ -1,4 +1,4 @@
-# integration-guide
+# Integration Guide
 
 [1.퍼블리셔용 NCPI Postback 연동 가이드](https://github.com/adbc-tech/integration-guide/blob/master/NCPI%20integration%20guide%20for%20publisher.md)
 
