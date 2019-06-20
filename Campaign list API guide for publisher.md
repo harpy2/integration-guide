@@ -41,7 +41,7 @@ ADBC에서 제공하는 캠페인을  API를 통하여 확인합니다
 | campaigns.end_date | 종료일 | 2019-06-30T23:45:00+0900 |  |
 | campaigns.daily_cap | 일일 캡 | 500 |  |
 | campaigns.daily_remain_cap | 당일 남은 캡 | 150 |  |
-| campaigns.icon_link | 캠페인의 아이콘 이미지 링크 | http://static.adbc.io/AdImage/Campaign_3232/Ad_11950/C3232A11950IMG0_1560759358374.jpg" |  |
+| campaigns.icon_link | 캠페인의 아이콘 이미지 링크 |  |  |
 | campaigns.guideline | 가이드라인 |  |  |
 | campaigns.currency | 재화단위 | KRW |  |
 | campaigns.store_url | 스토어 링크 | https://play.google.com/store/apps/details?id=com.chuslab.usemap&hl=ko |  |
