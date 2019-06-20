@@ -11,7 +11,9 @@ ADBC에서 제공하는 캠페인을  API를 통하여 확인합니다
 - method : GET
 - domain : http://api.adbc.io/api/v1/campaigns
 - parameter : token (mandatory), page (optional)
+- 요청 예시 : http://api.adbc.io/api/v1/campaigns?token={token}&page=1
 - token은 발급 후 전달드립니다
+
 
 
 # 2.응답 정보
