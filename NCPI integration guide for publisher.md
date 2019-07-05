@@ -72,7 +72,7 @@ https://adbc.io?sub1={click_id}&aff_id={affiliate_id}
 메뉴의 Integration > Postback Configuration에서 위 내용을 적용합니다
 
 
-# 3.Test
+# 4.Test
 
 메뉴의 Campaigns > List 페이지에서 실 집행중인 캠페인 중 하나를 테스트하여 포스트백이 잘 들어오는지 확인합니다
 포스트백 연동이 성공적으로 이루어졌거나 문의사항이 있다면 아래 메일로 연락 부탁드립니다
