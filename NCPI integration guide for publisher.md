@@ -75,7 +75,7 @@ https://adbc.io?sub1={click_id}&aff_id={affiliate_id}
 # 3.Test
 
 메뉴의 Campaigns > List 페이지에서 실 집행중인 캠페인 중 하나를 테스트하여 포스트백이 잘 들어오는지 확인합니다
-문의사항 및 문제 해결에 대해 아래 메일로 연락주세요 
+포스트백 연동이 성공적으로 이루어졌거나 문의사항이 있다면 아래 메일로 연락 부탁드립니다
 
 ## Authors
 
