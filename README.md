@@ -1,10 +1,15 @@
 # Integration Guide
 
-[1.퍼블리셔용 NCPI Postback 연동 가이드](https://github.com/adbc-tech/integration-guide/blob/master/NCPI%20integration%20guide%20for%20publisher.md)
 
-[2.퍼블리셔용 NCPI Campaign List API 연동 가이드](https://github.com/adbc-tech/integration-guide/blob/master/Campaign%20list%20API%20guide%20for%20publisher.md)
+### For Advertiser
+[1.프로모션 페이지 스크립트 연동 가이드](https://github.com/adbc-tech/integration-guide/blob/master/CPA%20script%20integration%20guide%20for%20Advertiser.md)
 
-3.광고주용 CPA 스크립트 연동 가이드 (준비 중)
+
+
+### For Publisher
+[1.NCPI Postback 연동 가이드](https://github.com/adbc-tech/integration-guide/blob/master/NCPI%20integration%20guide%20for%20publisher.md)
+
+[2.NCPI Campaign List API 연동 가이드](https://github.com/adbc-tech/integration-guide/blob/master/Campaign%20list%20API%20guide%20for%20publisher.md)
 
 
 ## Authors
