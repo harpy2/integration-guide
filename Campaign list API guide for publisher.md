@@ -46,11 +46,6 @@ ADBC에서 제공하는 캠페인을  API를 통하여 확인합니다
 | campaigns.icon_link | 캠페인의 아이콘 이미지 링크 |  |  |
 | campaigns.guideline | 가이드라인 |  |  |
 | campaigns.currency | 재화단위 | KRW |  |
-| campaigns.store_url | 스토어 링크 | https://play.google.com/store/apps/details?id=com.chuslab.usemap&hl=ko |  |
-| campaigns.conversion | 전환 조건 | app open |  |
-| campaigns.kpi | kpi | D+1 20% (soft) |  |
-| campaigns.package_name | 캠페인의 패키지명 | com.chuslab.usemap |  |
-
 
 
 
