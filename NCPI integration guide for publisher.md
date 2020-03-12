@@ -59,11 +59,13 @@ adbc에서 귀사에게 링크를 발급할 때 어떤 형태로 파라미터를
 | sub3 | 포스트백으로 전달받을 값 3 |  |  |
 | sub4 | 포스트백으로 전달받을 값 4 |  |  |
 | sub5 | 포스트백으로 전달받을 값 5 |  |  |
-| aff_id | 귀사의 매체 식별 값 | app12345_1234 | ○ | 
+| aff_id | 귀사의 매체 식별 값 | app12345_1234 | ○ |
+| gaid | Google Advertising ID | 5195b3c1-0a6b-4c60-a8f2-1cc997e3dfc9 |  |
+| idfa | Identifier for Advertising | 97CC2CBC-544A-4A08-99E0-C450A5D2D8DF |  | 
 
 - ###### 링크 템플릿 예시
 ```
-https://adbc.io?sub1={click_id}&aff_id={affiliate_id}
+https://adbc.io?sub1={click_id}&aff_id={affiliate_id}&gaid={gaid}
 ```
 
 # 3.Sign up
