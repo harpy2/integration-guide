@@ -1,4 +1,4 @@
-# NCPI integration guide for publisher
+# nCPI integration guide for publisher
 
 ### Getting Started
 

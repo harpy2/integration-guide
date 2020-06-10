@@ -1,4 +1,4 @@
-# NCPI integration guide for publisher
+# nCPI integration guide for publisher
 
 # 1.Postback
 
@@ -56,8 +56,8 @@ https://adbc.io?sub1={click_id}&aff_id={affiliate_id}&gaid={gaid}
 # 3.Sign up
 
 Go to [https://adbc.co.kr](https://adbc.co.kr) and signup 
-Locate to Integration > Postback Configuration
-Fill the forms with your values
+Locate to Integration > Postback Configuration 
+Fill the forms with your values 
 
 
 
