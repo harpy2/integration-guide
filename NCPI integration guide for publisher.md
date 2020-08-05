@@ -62,6 +62,7 @@ adbc에서 귀사에게 링크를 발급할 때 어떤 형태로 파라미터를
 | aff_id | 귀사의 매체 식별 값 | app12345_1234 | ○ |
 | gaid | Google Advertising ID | 5195b3c1-0a6b-4c60-a8f2-1cc997e3dfc9 |  |
 | idfa | Identifier for Advertising | 97CC2CBC-544A-4A08-99E0-C450A5D2D8DF |  | 
+| ua | user agent | Mozilla/5.0 (Linux; Android 10; SM-G887N Build/QP1A.190711.020; wv) AppleWebKit/537.36 --- (생략) | ○ | 
 
 - ###### 링크 템플릿 예시
 ```

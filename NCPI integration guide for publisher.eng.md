@@ -47,6 +47,7 @@ define tracking url template
 | aff_id | sub-publisher's id | app12345_1234 | ○ |
 | gaid | Google Advertising ID | 5195b3c1-0a6b-4c60-a8f2-1cc997e3dfc9 |  |
 | idfa | Identifier for Advertising | 97CC2CBC-544A-4A08-99E0-C450A5D2D8DF |  | 
+| ua | user agent | Mozilla/5.0 (Linux; Android 10; SM-G887N Build/QP1A.190711.020; wv) AppleWebKit/537.36 ... | ○ | 
 
 - ###### sample for tracking url template
 ```
