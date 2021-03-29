@@ -2,7 +2,7 @@
 
 
 ## For Advertiser
-###[1.프로모션 페이지 스크립트 연동 가이드](https://github.com/adbc-tech/integration-guide/blob/master/CPA%20script%20integration%20guide%20for%20Advertiser.md)
+[1.프로모션 페이지 스크립트 연동 가이드](https://github.com/adbc-tech/integration-guide/blob/master/CPA%20script%20integration%20guide%20for%20Advertiser.md)
 
 
 ## For Publisher
@@ -19,6 +19,7 @@
 \
 [3.CPS 연동 가이드 - korean](https://github.com/adbc-tech/integration-guide/blob/master/CPS%20integration%20guide.md)
 
+[3.CPS integration guide - english](https://github.com/adbc-tech/integration-guide/blob/master/CPS%20integration%20guide.eng.md)
 
 ## Authors
 
