@@ -16,6 +16,8 @@
 [2.Campaign List API 연동 가이드 - korean](https://github.com/adbc-tech/integration-guide/blob/master/Campaign%20list%20API%20guide%20for%20publisher.md)
 
 
+[3.CPS 연동 가이드 - korean](https://github.com/adbc-tech/integration-guide/blob/master/CPS%20integration%20guide.md)
+
 
 ## Authors
 
