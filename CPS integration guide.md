@@ -24,7 +24,7 @@
 | ------ | ------ | ------ | ------ |
 | tp | 마켓코드 | coupang | coupang, tmon |
 | url | 상품페이지 주소 | https%3A%2F%2Fwww.coupang.com%2F  vp%2Fproducts%2F207040%3F  itemId%3D2698315%26  vendorItemId%3D3000303300 | Encoded market URL |
-| sub_param1 | click id | (various) | 리포트 API의 구매 이력에서 확인 가능 |
+| sub1 | click id | (various) | 리포트 API의 구매 이력에서 확인 가능 |
 | aff_id | 귀사의 매체 식별값 | channel1 |  |
 
 - response :  
