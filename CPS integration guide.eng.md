@@ -26,7 +26,7 @@ This guide is for CPS integration.
 | ------ | ------ | ------ | ------ |
 | tp | market code | coupang | coupang, tmon |
 | url | product page url | https%3A%2F%2Fwww.coupang.com%2F  vp%2Fproducts%2F207040%3F  itemId%3D2698315%26  vendorItemId%3D3000303300 | URL Encoding mandatory |
-| sub_param1 | click id | (various) | Can be checked in the report API |
+| sub1 | click id | (various) | Can be checked in the report API |
 | aff_id | sub affiliate code | channel1 | insert the affiliates you have  |
 
 - response :  
