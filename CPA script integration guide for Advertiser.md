@@ -17,8 +17,8 @@
 
 ```
 <script type="text/javascript">
-	var ADBC_JS_DEBUG = false;
-	eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('4 1;4 2=3.5(\'2\');2.6=\'c://d.1.e/1.f.g\';2.h=7(){1={i:7(a){4 b=3.5(\'j\');b.6=k.l(a);3.8("m")[0].9(b);n(o)p.q(\'1::r::s(\'+a+\')\')}}};3.8(\'t\')[0].9(2);',30,30,'|adbc|script|document|var|createElement|src|function|getElementsByTagName|appendChild|||https|static|io|min|js|onload|post|img|ADBC_URL|gathering|body|if|ADBC_JS_DEBUG|console|log|info|POSTBACK_FIRED_WITH_|head'.split('|'),0,{}))
+	const ADBC_JS_DEBUG = false;
+	let adbc;let isLoaded=false;let script=document.createElement('script');script.src='https://static.adbc.io/adbc.v2.min.js';script.async=true;script.onload=function(){isLoaded=true};function postback(val,type){if(!isLoaded){if(ADBC_JS_DEBUG)console.log('adbc::info::wait for loading script');setTimeout(function(){type==="post"?adbc.post(val):adbc.event(val)},2000)}else{clk_id=getClkIdFromCookie();if(clk_id==undefined){errorMsg='adbc::error::clk_id is undefined';if(ADBC_JS_DEBUG)console.log(errorMsg);return errorMsg}if(val==undefined&&type=="event"){errorMsg='adbc::error::event_name is undefined';if(ADBC_JS_DEBUG)console.log(errorMsg);return errorMsg}if(val==undefined)val="";let b=document.createElement('img');b.src=type==="post"?ADBC_URL.postback(val):ADBC_URL.event(val);document.getElementsByTagName("body")[0].appendChild(b);if(ADBC_JS_DEBUG)console.log('adbc::info::POSTBACK_FIRED_WITH_('+val+')');return"success"}}adbc={post:function(a){type="post";return postback(a,type)},event:function(event_name){type="event";return postback(event_name,type)}};document.getElementsByTagName('head')[0].appendChild(script);
 </script>
 ```
 
@@ -53,8 +53,8 @@ adbc.post();
 		
 		// 1. adbc 스크립트 삽입
 		<script type="text/javascript">
-			var ADBC_JS_DEBUG = false;
-			eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('4 1;4 2=3.5(\'2\');2.6=\'c://d.1.e/1.f.g\';2.h=7(){1={i:7(a){4 b=3.5(\'j\');b.6=k.l(a);3.8("m")[0].9(b);n(o)p.q(\'1::r::s(\'+a+\')\')}}};3.8(\'t\')[0].9(2);',30,30,'|adbc|script|document|var|createElement|src|function|getElementsByTagName|appendChild|||https|static|io|min|js|onload|post|img|ADBC_URL|gathering|body|if|ADBC_JS_DEBUG|console|log|info|POSTBACK_FIRED_WITH_|head'.split('|'),0,{}))
+			const ADBC_JS_DEBUG = false;
+			let adbc;let isLoaded=false;let script=document.createElement('script');script.src='https://static.adbc.io/adbc.v2.min.js';script.async=true;script.onload=function(){isLoaded=true};function postback(val,type){if(!isLoaded){if(ADBC_JS_DEBUG)console.log('adbc::info::wait for loading script');setTimeout(function(){type==="post"?adbc.post(val):adbc.event(val)},2000)}else{clk_id=getClkIdFromCookie();if(clk_id==undefined){errorMsg='adbc::error::clk_id is undefined';if(ADBC_JS_DEBUG)console.log(errorMsg);return errorMsg}if(val==undefined&&type=="event"){errorMsg='adbc::error::event_name is undefined';if(ADBC_JS_DEBUG)console.log(errorMsg);return errorMsg}if(val==undefined)val="";let b=document.createElement('img');b.src=type==="post"?ADBC_URL.postback(val):ADBC_URL.event(val);document.getElementsByTagName("body")[0].appendChild(b);if(ADBC_JS_DEBUG)console.log('adbc::info::POSTBACK_FIRED_WITH_('+val+')');return"success"}}adbc={post:function(a){type="post";return postback(a,type)},event:function(event_name){type="event";return postback(event_name,type)}};document.getElementsByTagName('head')[0].appendChild(script);
 		</script>
 	</head>
 	<body>
