@@ -10,8 +10,8 @@ This guide is for CPS integration.
 
 ### overview
 
-- The purchase history on the day will be collectively reflected at 16:00 the next day
-- The final confirmed results will be reflected at 16:00 on the 1st of the following month
+- The purchase history on the day will be collectively reflected at 16:00 in KST the next day
+- The final confirmed results will be reflected at 16:00(KST) on the 1st of the following month
 - Tokens required for API inquiry will be delivered by adbc support team
 
 
