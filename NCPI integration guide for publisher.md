@@ -29,6 +29,11 @@ ADBC의 NCPI 캠페인을 진행하기 위해 포스트백을 연동합니다
 | {idfa} | iOS idfa | 022db29c-d0e2-11e5-bb4c-60f81dca7676 |  | ○ |  ○|
 | {cid} | 캠페인ID | 11929 |  | ○ |  ○|
 | {price} | 캠페인 단가 | 1200.0 |  | ○ |  ○|
+| {evt_price} | 구매 가격 | 35000 |  |  |  ○|
+| {evt_quantity} | 구매 수량 | 3 |  |  |  ○|
+| {evt_product_id} | 상품번호 | pid1111 |  |  |  ○|
+| {evt_currency} | 구매 통화 | krw |  |  |  ○|
+| {purchase_info} | 구매 정보 JSON 포맷 | {} |  |  |  ○|
 
 
 - ###### 인스톨 포스트백 예시

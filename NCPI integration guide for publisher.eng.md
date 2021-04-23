@@ -21,7 +21,11 @@
 | {idfa} | identifier for advertisers | 022db29c-d0e2-11e5-bb4c-60f81dca7676 |  | ○ |  ○|
 | {cid} | adbc campaign ID | 11929 |  | ○ |  ○|
 | {price} | payout | 1200.0 |  | ○ |  ○|
-
+| {evt_price} | purchase price | 35000 |  |  |  ○|
+| {evt_quantity} | purchase quantity | 3 |  |  |  ○|
+| {evt_product_id} | product id | pid1111 |  |  |  ○|
+| {evt_currency} | currency | krw |  |  |  ○|
+| {purchase_info} | purchase info JSON format | {} |  |  |  ○|
 
 - ###### install postback sample
 ```
