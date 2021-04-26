@@ -25,7 +25,7 @@
 | {evt_quantity} | purchase quantity | 3 |  |  |  ○|
 | {evt_product_id} | product id | pid1111 |  |  |  ○|
 | {evt_currency} | currency | krw |  |  |  ○|
-| {purchase_info} | purchase info JSON format | {} |  |  |  ○|
+| {cps_json} | purchase info JSON format | order_id(String), product_id(Array), product_name(Array), price(Array), quantity(Array), currency(String) |  |  |  ○|
 
 - ###### install postback sample
 ```
