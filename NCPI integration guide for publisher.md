@@ -33,7 +33,7 @@ ADBC의 NCPI 캠페인을 진행하기 위해 포스트백을 연동합니다
 | {evt_quantity} | 구매 수량 | 3 |  |  |  ○|
 | {evt_product_id} | 상품번호 | pid1111 |  |  |  ○|
 | {evt_currency} | 구매 통화 | krw |  |  |  ○|
-| {cps_json} | 구매 정보 JSON 포맷 | order_id(String), product_id(Array), product_name(Array), price(Array), quantity(Array), currency(String)  |  |  |  ○|
+| {cps_json} | 구매 정보 JSON 포맷 | {"order_id":"orderid123", "product_id":["p123"], "product_name":["goods_name"], "price":[11000], "quantity":[2], "currency":"KRW"} |  |  |  ○|
 
 
 - ###### 인스톨 포스트백 예시
