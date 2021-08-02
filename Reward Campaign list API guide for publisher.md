@@ -1,6 +1,6 @@
 # Reward-CPC Campaign API guide for publisher
 ***
-#Campaign list API
+##Campaign list API
 
 ### Getting Started
 ADBC에서 제공하는 리워드 캠페인을 API를 통하여 확인합니다 \
@@ -55,7 +55,7 @@ Campaign list API 연동이 필요 없을 경우, \
 
 ***
 
-#Reward campaign link and click postback
+##Reward campaign link and click postback
 
 ### Getting Started
 reward campaign api를 통해 캠페인 리스트를 확인 후
