@@ -42,7 +42,6 @@ Campaign list API 연동이 필요 없을 경우, \
 | campaigns.tracking_url | 트래킹 URL | https://adbc.io/159750794/{매체고유번호} |  |
 | campaigns.target_country | 타겟 국가 | kr |  |
 | campaigns.price_krw | 단가 | 1200 | 원 단위 |
-| campaigns.price_usd | 단가 | 1 | USD 단위 |
 | campaigns.price_type | 수익형태 | CPI | CPI, CPA |
 | campaigns.start_date | 시작일 | 2019-06-17T17:07:00+0900 |  |
 | campaigns.end_date | 종료일 | 2019-06-30T23:45:00+0900 |  |
