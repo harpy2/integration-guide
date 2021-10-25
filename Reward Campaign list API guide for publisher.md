@@ -40,6 +40,7 @@ Campaign list API 연동이 필요 없을 경우, \
 | campaigns.status | 캠페인의 집행 상태 | Active | 진행중:Active, 당일소진:DayOff |
 | campaigns.platform | 타겟 플랫폼 | Android | Android, iOS |
 | campaigns.tracking_url | 트래킹 URL | https://adbc.io/159750794/{매체고유번호} |  |
+| campaigns.dest_url | 목적지 URL | https://naver.com |  |
 | campaigns.target_country | 타겟 국가 | kr |  |
 | campaigns.price_krw | 단가 | 1 | 원 단위 |
 | campaigns.price_type | 수익형태 | RCPC | 현재 지원 형식 : RCPC |
